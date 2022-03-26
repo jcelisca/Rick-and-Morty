@@ -1,7 +1,12 @@
+import { Fragment } from "react";
+import Navbar from "../components/navegation/Navbar";
 
 function App() {
   return (
-   <h1>Rick and morty</h1>
+    <Fragment>
+      <Navbar/>
+      <h1>Rick and morty</h1>
+   </Fragment>
   );
 }
 
