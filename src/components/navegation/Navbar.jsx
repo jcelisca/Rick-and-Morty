@@ -4,7 +4,10 @@ const Navbar = () => {
         <nav className="navbar navbar-dark bg-primary">
             <div className="container-fluid">
                 <a className="navbar-brand">Navbar</a>
-                <a className="navbar-brand">Favoritos</a>
+                <div>
+                    <a className="navbar-brand">Favoritos</a>
+                    <img src="icons/me-gusta.png" width="24"/>
+                </div>
                 <div className="nav-item dropdown">
                     <a className="navbar-brand dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                         Categorias
